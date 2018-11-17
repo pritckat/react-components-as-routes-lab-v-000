@@ -11,7 +11,8 @@ const Directors = () => {
           <ul>
             {director.movies.map((movie, index) => (
               <li key={index}>{movie}</li>
-            ))}
+              
+            )</ul>)}
         </div>)}
     </div>
   );
